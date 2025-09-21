@@ -1,12 +1,10 @@
 print("Escribir un programa que pida al usuario que introduzca una frase y una vocal, y después muestre la misma frase, pero con la vocal introducida en mayúscula")
-print ("--------------------------------------------------------------")
-print("Escriba una frase: ")
-frase = input()
+print ("----------------------------------------------------------------")
+frase = input("Escriba una frase: ")
 if not frase:
     print("No ha introducido ninguna frase")
     exit()
-print("Escriba una vocal de la frase: ")
-vocal = input()
+vocal = input("Escriba una vocal de la frase: ")
 vocal_con_tildes = {
     "a": "á",
     "e": "é",

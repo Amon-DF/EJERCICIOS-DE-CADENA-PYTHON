@@ -1,7 +1,6 @@
 print("Escribir un programa que pregunte al usuario la fecha de su nacimiento en formato *dd/mm/aaaa* y muestre por pantalla, el día, el mes y el año. Adaptar el programa anterior para que también funcione cuando el día o el mes se introduzcan con un solo carácter")
-print ("--------------------------------------------------------------")
-print("Escriba su fecha de nacimiento (dd/mm/aaaa): ")
-fecha_nacimiento = input()
+print ("----------------------------------------------------------------")
+fecha_nacimiento = input("Escriba su fecha de nacimiento (dd/mm/aaaa): ")
 if not fecha_nacimiento or "/" not in fecha_nacimiento or fecha_nacimiento.count("/") != 2:
     print("La fecha de nacimiento no es válida")
     exit()
